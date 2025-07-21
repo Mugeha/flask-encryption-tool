@@ -74,6 +74,12 @@ from cryptography.fernet import Fernet
 print(Fernet.generate_key().decode())
 ```
 
+Flask-secret-key
+
+```bash
+python -c "import secrets; print(secrets.token_hex(32))"
+```
+
 
 
 
