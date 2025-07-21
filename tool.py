@@ -1,32 +1,30 @@
 import sys
+import os
 from cryptography.fernet import Fernet
+from dotenv import load_dotenv
 
-# Save key to a file
-def generate_key():
-    key = Fernet.generate_key()
-    with open("secret.key", "wb") as key_file:
-        key_file.write(key)
+# Load .env variables
+load_dotenv()
 
-# Load key from file
-def load_key():
-    try:
-        with open("secret.key", "rb") as key_file:
-            return key_file.read()
-    except FileNotFoundError:
-        print("🔐 Key not found. Generating a new one...")
-        generate_key()
-        return load_key()
+# Get encryption key from environment
+key = os.environ.get("ENCRYPTION_KEY")
+
+if not key:
+    print("❌ ENCRYPTION_KEY not found in environment variables.")
+    sys.exit(1)
+
+# Convert key to bytes if needed
+if isinstance(key, str):
+    key = key.encode()
+
+cipher = Fernet(key)
 
 # Encrypt message
 def encrypt_message(message):
-    key = load_key()
-    cipher = Fernet(key)
     return cipher.encrypt(message.encode())
 
 # Decrypt message
 def decrypt_message(token):
-    key = load_key()
-    cipher = Fernet(key)
     return cipher.decrypt(token.encode()).decode()
 
 # MAIN PROGRAM
