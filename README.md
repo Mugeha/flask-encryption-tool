@@ -40,3 +40,6 @@ A simple yet secure web application built using **Flask** and **Fernet encryptio
 ```bash
 git clone https://github.com/your-username/encryption-tool.git
 cd encryption-tool
+```
+
+
