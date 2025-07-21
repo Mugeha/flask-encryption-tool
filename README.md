@@ -98,6 +98,8 @@ encryption-tool/
 └── web_app.py             # Main Flask app
 
 
+### 7. Screenshots
+
 
 
 
