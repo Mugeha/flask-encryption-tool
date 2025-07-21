@@ -57,6 +57,11 @@ pip install -r requirements.txt
 
 ### 4. Environment Setup
 
+Create a .env file in your project root directory with the following content:
+
+
+
+
 
 
 
