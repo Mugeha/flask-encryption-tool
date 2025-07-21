@@ -1,21 +1,21 @@
 import os
 from cryptography.fernet import Fernet
+from dotenv import load_dotenv
 
-KEY_FILE = "secret.key"
+# Load environment variables from .env (useful in local dev)
+load_dotenv()
 
-# Load or generate key
-def generate_key():
-    key = Fernet.generate_key()
-    with open(KEY_FILE, "wb") as f:
-        f.write(key)
+# Get key from environment
+key = os.environ.get("ENCRYPTION_KEY")
 
-def load_key():
-    if not os.path.exists(KEY_FILE):
-        generate_key()
-    with open(KEY_FILE, "rb") as f:
-        return f.read()
+if not key:
+    raise ValueError("❌ ENCRYPTION_KEY is not set in environment variables")
 
-cipher = Fernet(load_key())
+# Convert to bytes if it's in string format
+if isinstance(key, str):
+    key = key.encode()
+
+cipher = Fernet(key)
 
 # Encrypt file
 def encrypt_file(file_path):

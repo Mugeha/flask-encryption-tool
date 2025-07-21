@@ -2,3 +2,9 @@
 secret.key
 __pycache__/
 *.pyc
+*.pyo
+*.log
+test.txt
+test.txt.decrypted
+test.txt.encrypted
+venv/
