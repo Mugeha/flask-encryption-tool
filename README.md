@@ -42,4 +42,8 @@ git clone https://github.com/your-username/encryption-tool.git
 cd encryption-tool
 ```
 
+### 2. Create a virtual environment (optional but recommended)
+
+
+
 
