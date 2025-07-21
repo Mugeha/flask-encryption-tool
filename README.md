@@ -65,6 +65,10 @@ SECRET_KEY=your_fernet_generated_key_here
 FLASK_SECRET_KEY=your_flask_secret_key_here
 ```
 
+To generate keys:
+
+Fernet key:
+
 
 
 
