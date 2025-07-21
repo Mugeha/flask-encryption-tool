@@ -4,20 +4,18 @@ from cryptography.fernet import Fernet
 import os
 
 # === KEY MANAGEMENT ===
-KEY_FILE = "secret.key"
+from dotenv import load_dotenv
+load_dotenv()
 
-def generate_key():
-    key = Fernet.generate_key()
-    with open(KEY_FILE, "wb") as key_file:
-        key_file.write(key)
+import base64
 
-def load_key():
-    if not os.path.exists(KEY_FILE):
-        generate_key()
-    with open(KEY_FILE, "rb") as key_file:
-        return key_file.read()
+key = os.getenv("ENCRYPTION_KEY")
 
-cipher = Fernet(load_key())
+if not key:
+    raise Exception("ENCRYPTION_KEY is not set in .env")
+
+cipher = Fernet(key.encode())
+
 
 # === GUI LOGIC ===
 def encrypt_text():
