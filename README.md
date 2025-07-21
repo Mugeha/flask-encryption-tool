@@ -80,6 +80,10 @@ Flask-secret-key
 python -c "import secrets; print(secrets.token_hex(32))"
 ```
 
+### 5. How It Works
+Encryption: Enter plain text and click Encrypt. The text is encoded and encrypted using Fernet symmetric encryption.
+
+Decryption: Paste the encrypted text and click Decrypt. If valid, it shows the original message.
 
 
 
