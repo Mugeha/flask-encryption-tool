@@ -6,16 +6,18 @@ import os
 # Load environment variables from .env
 load_dotenv()
 
+# Load Flask secret key for session security
 app = Flask(__name__)
+app.secret_key = os.getenv("FLASK_SECRET_KEY")  # for Flask's internal use
 
-# Get secret key securely from environment
-SECRET_KEY = os.getenv("SECRET_KEY")
+# Load encryption key (used for Fernet)
+ENCRYPTION_KEY = os.getenv("ENCRYPTION_KEY")
 
 # Safety check
-if not SECRET_KEY:
-    raise Exception("SECRET_KEY not found in environment variables!")
+if not ENCRYPTION_KEY:
+    raise Exception("ENCRYPTION_KEY not found in environment variables!")
 
-cipher = Fernet(SECRET_KEY)
+cipher = Fernet(ENCRYPTION_KEY)
 
 @app.route('/')
 def index():
