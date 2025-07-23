@@ -6,7 +6,7 @@ A simple yet secure web application built using **Flask** and **Fernet encryptio
 
 ## 🌐 Live Demo
 
-👉 [Click to Try the App Live](https://encryption-tool.onrender.com)
+👉 [Click to Try the App Live](https://flask-encryption-tool-ny2t.onrender.com)
 
 ---
 
