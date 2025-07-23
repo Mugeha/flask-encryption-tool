@@ -18,7 +18,7 @@ A simple yet secure web application built using **Flask** and **Fernet encryptio
 
 ## 📝 Blog Post
 
-📘 [Read the Build Journey on My Blog](https://your-blog-platform.com/encryption-tool-journey)
+📘 [Read the Build Journey on My Blog](https://mugeha585.hashnode.dev/building-a-simple-web-based-text-encryptor-with-flask-and-fernet)
 
 ---
 
