@@ -12,7 +12,7 @@ A simple yet secure web application built using **Flask** and **Fernet encryptio
 
 ## 🎥 Video Walkthrough
 
-📹 [Watch Loom Demo Walkthrough](https://www.loom.com/share/your-loom-video-id)
+📹 [Watch Loom Demo Walkthrough](https://www.loom.com/share/56e036ae61614bb88add64e907579849?sid=565b6d34-04ff-46f2-a6a3-30ae5f9e7617)
 
 ---
 
