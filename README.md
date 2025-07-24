@@ -84,7 +84,7 @@ python -c "import secrets; print(secrets.token_hex(32))"
 
 - Encryption: Enter plain text and click Encrypt.
 - The text is encoded and encrypted using Fernet symmetric encryption.
-Decryption: Paste the encrypted text and click Decrypt. If valid, it shows the original message.
+- Decryption: Paste the encrypted text and click Decrypt. If valid, it shows the original message.
 
 ### 6. Project Structure
 
