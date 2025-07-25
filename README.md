@@ -91,6 +91,7 @@ python -c "import secrets; print(secrets.token_hex(32))"
 encryption-tool/
 
 │
+
 ├── templates/
 │   └── index.html
 ├── .env                   # Not committed
