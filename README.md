@@ -96,7 +96,8 @@ encryption-tool/
 
 │   └── index.html
 
-├── .env                   # Not committed
+├── .env  
+
 ├── .gitignore
 ├── requirements.txt
 ├── simple_encryptor.py    # Optional helper module
