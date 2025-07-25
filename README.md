@@ -95,6 +95,7 @@ encryption-tool/
 ├── templates/
 
 │   └── index.html
+
 ├── .env                   # Not committed
 ├── .gitignore
 ├── requirements.txt
