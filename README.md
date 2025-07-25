@@ -89,6 +89,7 @@ python -c "import secrets; print(secrets.token_hex(32))"
 ### 6. Project Structure
 
 encryption-tool/
+
 │
 ├── templates/
 │   └── index.html
