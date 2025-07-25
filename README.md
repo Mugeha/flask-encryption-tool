@@ -103,6 +103,7 @@ encryption-tool/
 ├── requirements.txt
 
 ├── simple_encryptor.py    # Optional helper module
+
 └── web_app.py             # Main Flask app
 
 
