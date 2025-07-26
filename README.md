@@ -111,5 +111,14 @@ encryption-tool/
 
 [Guiversion](uploads/guiversion.png)
 
+### 8. Author
 
+Name: Mugeha
+
+### 9. LinkedIn
+
+Email: your.email@example.com
+
+📄 License
+This project is licensed under the MIT License.
 
