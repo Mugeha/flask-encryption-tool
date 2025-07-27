@@ -115,7 +115,7 @@ encryption-tool/
 
 Name: Mugeha
 
-### 9. LinkedIn
+LinkedIn:
 
 Email: your.email@example.com
 
