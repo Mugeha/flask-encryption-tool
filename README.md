@@ -117,7 +117,7 @@ Name: Mugeha
 
 LinkedIn:
 
-Email: your.email@example.com
+Email: mugehajacky@gmail.com
 
 ### 📄 License
 
