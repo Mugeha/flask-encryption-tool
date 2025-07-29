@@ -115,7 +115,7 @@ encryption-tool/
 
 Name: Mugeha
 
-LinkedIn:
+LinkedIn: https://www.linkedin.com/in/mugeha-jackline
 
 Email: mugehajacky@gmail.com
 
