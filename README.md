@@ -109,7 +109,7 @@ encryption-tool/
 
 ### 7. Screenshots
 
-[Guiversion](uploads/guiversion.png)
+![Guiversion](uploads/guiversion.png)
 
 ### 8. Author
 
