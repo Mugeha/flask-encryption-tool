@@ -111,6 +111,11 @@ encryption-tool/
 
 ![Guiversion](uploads/guiversion.png)
 
+![Encryption](uploads/encrypt.png)
+
+![Guiversion](uploads/guiversion.png)
+
+
 ### 8. Author
 
 Name: Mugeha
