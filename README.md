@@ -113,7 +113,7 @@ encryption-tool/
 
 ![Encryption](uploads/encrypt.png)
 
-![Guiversion](uploads/guiversion.png)
+![Decryption](uploads/decrypt.png)
 
 
 ### 8. Author
