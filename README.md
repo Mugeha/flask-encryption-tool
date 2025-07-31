@@ -124,7 +124,7 @@ LinkedIn: https://www.linkedin.com/in/mugeha-jackline
 
 Email: mugehajacky@gmail.com
 
-### 📄 License
+### 9. 📄 License
 
 This project is licensed under the MIT License.
 
